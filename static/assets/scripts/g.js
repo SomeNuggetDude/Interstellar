@@ -289,6 +289,41 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false,
     },
     {
+      name: 'Fireboy And Watergirl 2 In The Light Temple',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40210/',
+      image: '/assets/media/icons/fireboyandwatergirllighttemple.jpg',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 4 In The Crystal Temple',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40212/',
+      image: '/assets/media/icons/fireboyandwatergirlcrystaltemple.jpg',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 5: Elements',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40218',
+      image: '/assets/media/icons/fireboyandwatergirlelements.jpg',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 6: Fairy Tales',
+      link: 'https://html5.gamedistribution.com/rvvASMiM/be3cff113c4e4f069b7614851825ffe9/index.html',
+      image: '/assets/media/icons/fireboyandwatergirlfairytales.webp',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl In The Forest Temple',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40034/',
+      image: '/assets/media/icons/fireboyandwatergirlfairytales.webp',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
       name: 'Gunspin',
       link: 'https://html5.gamedistribution.com/rvvASMiM/917cce8c44c44638a8cdc2a1794b65c8/index.html',
       image: '/assets/media/icons/gunspin.jpg',
@@ -506,7 +541,7 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false,
     },
     {
-      name: 'Fortnite',
+      name: 'Fortnite (PC)',
       link: 'https://play.geforcenow.com/mall/#/deeplink?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a',
       image: '/assets/media/icons/fortnite.webp',
       categories: ['all'],
@@ -1459,33 +1494,234 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: 'Roblox (Now.GG)',
-      link: 'https://now.gg/play/roblox-corporation/5349/roblox',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar',
       image: '/assets/media/icons/roblox.png',
-      categories: ['all', 'emu'],
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Android',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar',
+      image: '/assets/media/icons/android.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Genshin Impact',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.miHoYo.GenshinImpact&partner=interstellar',
+      image: '/assets/media/icons/genshinimpact.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Fortnite (Android)',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.epicgames.fortnite&partner=interstellar',
+      image: '/assets/media/icons/fortnite.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'EA SPORTS FC™ MOBILE 24 SOCCER',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.ea.gp.fifamobile&partner=interstellar',
+      image: '/assets/media/icons/easports-fcmobile24.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'EA SPORTS™ UFC® Mobile 2',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.ea.gp.easportsufc2&partner=interstellar',
+      image: '/assets/media/icons/easports-ufc.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Melon Playground',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.studio27.MelonPlayground&partner=interstellar',
+      image: '/assets/media/icons/melonplayground.webp',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Solar Smash',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.paradyme.solarsmash&partner=interstellar',
+      image: '/assets/media/icons/solarsmash.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Bloons TD Battles 2',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.ninjakiwi.bloonstdbattles2&partner=interstellar',
+      image: '/assets/media/icons/bloonstd2.png',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Bloons TD Battles',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.ninjakiwi.bloonstdbattles&partner=interstellar',
+      image: '/assets/media/icons/bloonstd.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Cookie Run Kingdom',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.devsisters.ck&partner=interstellar',
+      image: '/assets/media/icons/cookierunkingdom.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Character AI',
+      link: 'https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar',
+      image: '/assets/media/icons/characterai.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Aptoide',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar',
+      image: '/assets/media/icons/aptoide.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Akinator',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.digidust.elokence.akinator.freemium&partner=interstellar',
+      image: '/assets/media/icons/akinator.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'WorldBox',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.mkarpenko.worldbox&partner=interstellar',
+      image: '/assets/media/icons/worldbox.webp',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Toca Life World',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocalifeworld&partner=interstellar',
+      image: '/assets/media/icons/tocalifeworld.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Toca Hair Salon 4',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocahairsalon4&partner=interstellar',
+      image: '/assets/media/icons/tocabocahairsalon4.png',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Toca Kitchen 2',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocakitchen2&partner=interstellar',
+      image: '/assets/media/icons/tocakitchen2.webp',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Free Fire',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.dts.freefireth&partner=interstellar',
+      image: '/assets/media/icons/freefire.jpg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
+    },
+    {
+      name: 'Stumble Guys (Android)',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.kitkagames.fallbuddies&partner=interstellar',
+      image: '/assets/media/icons/stumbleguys.jpeg',
+      categories: ['all', 'emu', 'android'],
+      now: true,
     },
     {
       name: 'Now.GG',
       link: 'https://now.gg',
       image: '/assets/media/icons/now-gg.png',
-      categories: ['all', 'emu'],
+      categories: ['all', 'emu', 'android'],
     },
     {
-      name: 'Roblox (Now.GG Alternative)',
-      link: 'https://nowgg.nl/play/roblox-corporation/5349/roblox',
-      image: '/assets/media/icons/roblox.png',
-      categories: ['all', 'emu'],
+      name: 'Roblox (NowGG.nl)',
+      link: 'https://nowgg.nl/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar',
+      image: '/assets/media/icons/astroid.png',
+      categories: ['all', 'emu', 'android'],
+      now: true,
     },
     {
-      name: 'Now.GG (Alternative)',
+      name: 'Roblox (NowGG.me)',
+      link: 'https://nowgg.me/apps/roblox-corporation/5349/roblox.html',
+      image: '/assets/media/icons/shuttle.png',
+      categories: ['all', 'emu', 'android'],
+    },
+    {
+      name: 'Now.GG (NowGG.nl)',
       link: 'https://nowgg.nl',
-      image: '/assets/media/icons/now-gg.png',
-      categories: ['all', 'emu'],
+      image: '/assets/media/icons/astroid.png',
+      categories: ['all', 'emu', 'android'],
+    },
+    {
+      name: 'Now.GG (NowGG.me)',
+      link: 'https://nowgg.me',
+      image: '/assets/media/icons/shuttle.png',
+      categories: ['all', 'emu', 'android'],
     },
     {
       name: 'Parappa the Rapper',
       link: 'https://retrogamesonline.io/parappa-the-rapper.embed',
       image: 'https://retrogamesonline.io/cache/data/image/game/parappa-the-rapper-1-f220x180.jpg',
       categories: ['all', 'emu'],
+    },
+    {
+      name: 'Half-Life',
+      link: 'https://x8bitrain.github.io/webXash/',
+      image: '/assets/media/icons/half-life.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Kiomet',
+      link: 'https://kiomet.com',
+      image: '/assets/media/icons/kiomet.webp',
+      categories: ['all'],
+    },
+    {
+      name: 'Tribals.io',
+      link: 'https://tribals.io/',
+      image: '/assets/media/icons/tribalsio.jpg',
+      categories: ['all'],
+    },
+    {
+      name: 'Counter Strike 1.6',
+      link: 'https://play-cs.com/en/servers',
+      image: '/assets/media/icons/cs16.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Narrow One',
+      link: 'https://narrow.one',
+      image: '/assets/media/icons/narrowone.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Kirka',
+      link: 'https://kirka.io',
+      image: '/assets/media/icons/kirka.jpg',
+      categories: ['all'],
+    },
+    {
+      name: 'Cryzen',
+      link: 'https://cryzen.io',
+      image: '/assets/media/icons/cryzen.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Hordes',
+      link: 'https://hordes.io',
+      image: '/assets/media/icons/hordes.jpg',
+      categories: ['all'],
+    },
+    {
+      name: 'Venge',
+      link: 'https://venge.io',
+      image: '/assets/media/icons/venge.png',
+      categories: ['all'],
     },
   ]
 
@@ -1534,8 +1770,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (typeof app.say !== 'undefined') {
           alert(app.say)
         }
-        saveToLocal(app.link)
-        window.location.href = '/w'
+        window.location.href = app.link
         return false
       }
     } else if (app.blank) {
@@ -1544,6 +1779,14 @@ document.addEventListener('DOMContentLoaded', () => {
           alert(app.say)
         }
         blank(app.link)
+        return false
+      }
+    } else if (app.now) {
+      link.onclick = function () {
+        if (typeof app.say !== 'undefined') {
+          alert(app.say)
+        }
+        now(app.link)
         return false
       }
     } else {
